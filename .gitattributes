@@ -1,0 +1,18 @@
+
+/.github export-ignore
+CHANGELOG.md export-ignore
+
+*.php linguist-detectable=true
+*.js linguist-detectable=false
+*.css linguist-detectable=false
+*.html linguist-detectable=false
+*.scss linguist-detectable=false
+
+
+* text=auto
+
+*.php diff=php
+*.blade.php diff=html
+*.css diff=css
+*.html diff=html
+*.md diff=markdown
